@@ -1,0 +1,638 @@
+
+-------------------------------
+Krishnanand A
+
+1.A: A shifting operation requires iterating through all the elements in the ArrayList
+
+2.B: 
+
+3.C:
+
+4.C: for even moderate values of n, n! becomes a very large
+
+
+5.A :  This operation takes O(n) time, where n is the number of elements that need to be shifted.
+
+6.B : These operations can be done in constant time, regardless of the size of the LinkedList.
+
+7.A :  shifting operation requires iterating through all the elements in the ArrayList
+
+8.A: 
+
+9.A shifting operation requires iterating through all the elements in the ArrayList
+
+10.C: In each recursive call, the search space is reduced by half
+
+11.A: Time increases linearly with the size of the input array
+
+12.C: Height of tree, BST allows to half the search space with each comparison in best case
+
+13.C: In the best case (balanced tree) because with each comparison you half the search space.
+
+14:C: 
+
+15:B: Nested loop approach
+
+
+
+
+Questions and Answers
+1.
+What is the time complexity of the insert(index) method in ArrayList?
+A.
+O(n)
+B.
+O(n^2)
+C.
+O(nlogn)
+D.
+O(logn)
+
+
+2.
+Indicate constant time complexity in terms of Big-O notation.
+
+A.
+O(n)
+
+B.
+O(1)
+C.
+O(logn)
+D.
+O(n^2)
+
+
+3.
+Indicate exponential time complexity in terms of big-O notation.
+A.
+O(n)
+B.
+O(n^2)
+C.
+O(2^n)
+D.
+O(logn)
+
+
+
+4.
+Find the slowest time.
+A.
+O(n)
+B.
+O(n^2)
+C.
+O(n!)
+D.
+O(2^n)
+
+
+5.
+What is the time complexity of the ArrayList remove(index) method?
+
+A.
+O(n)
+
+B.
+O(2n)
+
+
+C.
+O(logn)
+
+
+D.
+O(n^2)
+
+
+6.
+What is the time complexity of adding an item before a LinkedList?
+
+A.
+O(logn)
+
+
+B.
+O(1)
+
+
+C.
+O(n^2)
+
+
+D.
+O(2^n)
+
+
+7.
+What is the time complexity of adding elements at the beginning of ArrayList?
+
+A.
+O(n)
+
+
+B.
+O(n^2)
+
+
+C.
+O(2n)
+
+
+D.
+O(nlogn)
+
+
+8.
+Indicate logarithm polynomial time complexity.
+
+A.
+O(n^const(const=2,3…) )
+
+
+B.
+O(n^2)
+
+
+C.
+O(2n)
+
+
+D.
+O(2^n)
+
+0
+9.
+What is the time complexity of the insert(index) method in ArrayList?
+
+A.
+O(n)
+
+
+B.
+O(2n)
+
+
+C.
+O(logn)
+
+
+D.
+O(nlogn)
+
+
+10.
+What is the time complexity of the recursive Binary Search algorithm?
+
+A.
+O(n)
+
+
+B.
+O(2^n)
+
+
+C.
+O(logn)
+
+
+D.
+O(nlogn)
+
+
+11.
+What is the time complexity of the linear search algorithm?
+
+A.
+O(n)
+
+
+B.
+O(n^2)
+
+
+C.
+O(2^n)
+
+
+D.
+O(1)
+
+
+12.
+Search a binary search tree costs?
+
+A.
+O(n)
+
+
+B.
+O(n^2)
+
+
+C.
+O(logn)
+
+
+D.
+O(nlogn)
+
+
+13.
+Element insertion to a Binary Search tree costs?
+
+A.
+O(n)
+
+
+B.
+O(n^2)
+
+
+C.
+O(logn)
+
+
+D.
+O(2^n)
+
+
+14.
+Insert and remove items from a heap costs?
+
+A.
+O(n)
+
+
+B.
+O(n^2)
+
+
+C.
+O(logn)
+
+
+D.
+O(1)
+
+
+15.
+The average time complexity of the Selection sort is?
+
+A.
+O(n)
+
+
+B.
+N^2
+
+
+C.
+O(logn)
+
+
+D.
+O(nlogn)
+
+
+
+
+
+Questions and Answers
+1.
+What is the time complexity of the insert(index) method in ArrayList?
+A.
+O(n)
+B.
+O(n^2)
+C.
+O(nlogn)
+D.
+O(logn)
+Correct Answer
+A. O(n)
+Explanation
+The time complexity of the insert(index) method in ArrayList is O(n). This means that the time it
+takes to insert an element at a specific index in an ArrayList grows linearly with the size
+of the ArrayList. In other words, if the ArrayList has n elements,
+it will take approximately n operations to insert an element at a specific index.
+
+2.
+Indicate constant time complexity in terms of Big-O notation.
+
+A.
+O(n)
+
+B.
+O(1)
+C.
+O(logn)
+D.
+O(n^2)
+Correct Answer
+B. O(1)
+Explanation
+The correct answer is O(1) because it indicates constant time complexity.
+In Big-O notation, O(1) means that the algorithm's running time does not
+depend on the input size. It implies that the algorithm takes the same amount of time to execute,
+regardless of the size of the input. This is the most efficient time complexity as it guarantees a constant and predictable performance.
+
+
+
+3.
+Indicate exponential time complexity in terms of big-O notation.
+A.
+O(n)
+B.
+O(n^2)
+C.
+O(2^n)
+D.
+O(logn)
+
+Correct Answer
+C. O(2^n)
+Explanation
+Exponential time complexity, represented by O(2^n), means that the time required to solve a problem increases
+exponentially with the size of the input. This notation indicates that the algorithm's running
+time doubles with each additional input element. It is the slowest time complexity among the options provided,
+as it grows very quickly and becomes impractical for larger inputs.
+
+4.
+Find the slowest time.
+A.
+O(n)
+B.
+O(n^2)
+C.
+O(n!)
+D.
+O(2^n)
+Correct Answer
+C. O(n!)
+Explanation
+The answer O(n!) indicates that the time complexity of the algorithm is factorial, meaning that the runtime grows exponentially with the size of the input. This suggests that the algorithm has a very inefficient and slow performance, as the factorial function grows extremely quickly. In comparison, O(n), O(n^2), and O(2^n) have better time complexities and would be faster than O(n!) for larger inputs.
+
+5.
+What is the time complexity of the ArrayList remove(index) method?
+
+A.
+O(n)
+
+
+B.
+O(2n)
+
+
+C.
+O(logn)
+
+
+D.
+O(n^2)
+
+Correct Answer
+A. O(n)
+Explanation
+The time complexity of the ArrayList remove(index) method is O(n). This means that the time it takes to remove an element from the ArrayList is directly proportional to the number of elements in the list. The method needs to shift all the subsequent elements in order to fill the gap left by the removed element, which requires iterating through the remaining elements. Therefore, the time complexity is linear, or O(n).
+
+0
+6.
+What is the time complexity of adding an item before a LinkedList?
+
+A.
+O(logn)
+
+
+B.
+O(1)
+
+
+C.
+O(n^2)
+
+
+D.
+O(2^n)
+
+Correct Answer
+B. O(1)
+Explanation
+The time complexity of adding an item before a LinkedList is O(1). This means that regardless of the size of the LinkedList, the time it takes to add an item before it remains constant. The reason for this is that LinkedLists use pointers to connect each node, so adding an item before it simply involves updating the pointers of the new item and the existing item, which can be done in constant time.
+
+7.
+What is the time complexity of adding elements at the beginning of ArrayList?
+
+A.
+O(n)
+
+
+B.
+O(n^2)
+
+
+C.
+O(2n)
+
+
+D.
+O(nlogn)
+
+Correct Answer
+A. O(n)
+Explanation
+Adding elements at the beginning of an ArrayList requires shifting all
+existing elements to the right to make space for the new element.
+This operation has a time complexity of O(n) because it needs to
+iterate through all the elements in the ArrayList to shift them. Therefore, the correct answer is O(n).
+
+8.
+Indicate logarithm polynomial time complexity.
+
+A.
+O(n^const(const=2,3…) )
+
+
+B.
+O(n^2)
+
+
+C.
+O(2n)
+
+
+D.
+O(2^n)
+
+Correct Answer
+A. O(n^const(const=2,3…) )
+Explanation
+The correct answer is O(n^const(const=2,3…)). This indicates that the time complexity of the algorithm is polynomial, specifically a power of n. The notation O(n^const(const=2,3…)) represents a polynomial time complexity where the highest power of n is a constant value (2, 3, etc.). This means that the algorithm's running time grows at a rate proportional to some constant power of the input size n.
+
+9.
+What is the time complexity of the insert(index) method in ArrayList?
+
+A.
+O(n)
+
+
+B.
+O(2n)
+
+
+C.
+O(logn)
+
+
+D.
+O(nlogn)
+
+Correct Answer
+A. O(n)
+Explanation
+The time complexity of the insert(index) method in ArrayList is O(n). This means that the time it takes to insert an element at a specific index in an ArrayList is directly proportional to the number of elements already in the ArrayList. As the number of elements increases, the time taken to insert an element also increases linearly.
+
+10.
+What is the time complexity of the recursive Binary Search algorithm?
+
+A.
+O(n)
+
+
+B.
+O(2^n)
+
+
+C.
+O(logn)
+
+
+D.
+O(nlogn)
+
+Correct Answer
+C. O(logn)
+Explanation
+The time complexity of the recursive Binary Search algorithm is O(logn) because in each recursive call, the algorithm divides the search space in half, reducing the number of elements to search by half each time. This results in a logarithmic time complexity as the search space is continually halved until the target element is found or the search space becomes empty. Therefore, the time complexity of the recursive Binary Search algorithm is O(logn).
+
+11.
+What is the time complexity of the linear search algorithm?
+
+A.
+O(n)
+
+
+B.
+O(n^2)
+
+
+C.
+O(2^n)
+
+
+D.
+O(1)
+
+Correct Answer
+A. O(n)
+Explanation
+The time complexity of the linear search algorithm is O(n) because it has to iterate through each element in the worst case scenario. This means that the time it takes to execute the algorithm increases linearly with the size of the input.
+
+12.
+Search a binary search tree costs?
+
+A.
+O(n)
+
+
+B.
+O(n^2)
+
+
+C.
+O(logn)
+
+
+D.
+O(nlogn)
+
+Correct Answer
+C. O(logn)
+Explanation
+The search operation in a binary search tree has a time complexity of O(logn). This is because in a binary search tree, the elements are arranged in a specific order, allowing for efficient searching. At each step of the search, the current node is compared with the target value, and based on the result, the search continues either in the left or right subtree. Since the tree is balanced and each comparison reduces the search space by half, the time complexity of the search operation is logarithmic in the number of elements in the tree.
+
+13.
+Element insertion to a Binary Search tree costs?
+
+A.
+O(n)
+
+
+B.
+O(n^2)
+
+
+C.
+O(logn)
+
+
+D.
+O(2^n)
+
+Correct Answer
+C. O(logn)
+Explanation
+The correct answer is O(logn) because when inserting an element into a binary search tree, we start from the root and compare the value of the element with the current node. Based on the comparison, we move either to the left or right subtree. This process is repeated until we find an empty spot to insert the element. Since at each step we divide the search space in half, the time complexity of element insertion in a binary search tree is logarithmic, making it O(logn).
+
+14.
+Insert and remove items from a heap costs?
+
+A.
+O(n)
+
+
+B.
+O(n^2)
+
+
+C.
+O(logn)
+
+
+D.
+O(1)
+
+Correct Answer
+C. O(logn)
+Explanation
+Inserting and removing items from a heap typically costs O(log n) time complexity, where "n" is the number of elements in the heap. This is because heaps are typically implemented as binary trees (binary min-heap or max-heap), and in a well-implemented heap, the height of the tree is logarithmic in the number of elements. So, the correct answer is O(log n).
+
+15.
+The average time complexity of the Selection sort is?
+
+A.
+O(n)
+
+
+B.
+N^2
+
+
+C.
+O(logn)
+
+
+D.
+O(nlogn)
+
+Correct Answer
+B. N^2
+
+
+
+
+Write a Java program to find the two elements in a given array of positive and negative numbers
+such that their sum is close to zero.
+Write a Java program to find the smallest and second smallest elements of a given array.
+Write a Java program to find duplicate values in an array of integer values.
